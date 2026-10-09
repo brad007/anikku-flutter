@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "id": "blender-samples",
+  "name": "Open animation \u00b7 sample catalog",
+  "titles": [
+    {
+      "id": "big-buck-bunny",
+      "title": "Big Buck Bunny",
+      "year": 2008,
+      "status": "Completed",
+      "description": "A gentle giant meets three mischievous woodland creatures. An open movie by the Blender Foundation. This sample is included to try the player; add your own catalogs to browse your collection.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Sample"
+      ],
+      "coverUrl": "https://media.w3.org/2010/05/bunny/poster.png",
+      "episodes": [
+        {
+          "id": "film",
+          "number": 1,
+          "title": "Big Buck Bunny \u00b7 trailer",
+          "streams": [
+            {
+              "label": "MP4",
+              "url": "https://media.w3.org/2010/05/bunny/trailer.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sintel",
+      "title": "Sintel",
+      "year": 2010,
+      "status": "Completed",
+      "description": "A young traveler follows a dragon across a world of mountains and mystery. An open movie by the Blender Foundation.",
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Sample"
+      ],
+      "coverUrl": "https://media.w3.org/2010/05/sintel/poster.png",
+      "episodes": [
+        {
+          "id": "film",
+          "number": 1,
+          "title": "Sintel \u00b7 trailer",
+          "streams": [
+            {
+              "label": "MP4",
+              "url": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tears-of-steel",
+      "title": "Tears of Steel",
+      "year": 2012,
+      "status": "Completed",
+      "description": "A group of scientists and warriors gather in a future Amsterdam. An open movie by the Blender Foundation.",
+      "genres": [
+        "Science fiction",
+        "Short film",
+        "Sample"
+      ],
+      "episodes": [
+        {
+          "id": "film",
+          "number": 1,
+          "title": "Tears of Steel \u00b7 full film",
+          "streams": [
+            {
+              "label": "720p MOV",
+              "url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "namakura-gatana",
+      "title": "Namakura Gatana",
+      "year": 1917,
+      "status": "Complete",
+      "genres": [
+        "Anime",
+        "Comedy",
+        "Classic"
+      ],
+      "description": "A hapless samurai discovers that his bargain sword has a very dull edge. A restored, silent Japanese animated short by Junichi Kouchi (1917), also known as The Dull Sword. Public-domain film; supplied by Internet Archive.",
+      "coverUrl": "https://archive.org/download/namakura-gatana-1917/namakura-gatana-1917.thumbs/Namakura%20Gatana%201917%20restoration_000058.jpg",
+      "episodes": [
+        {
+          "id": "film",
+          "title": "The Dull Sword \u00b7 full short film",
+          "number": 1,
+          "streams": [
+            {
+              "label": "Restored MP4",
+              "url": "https://archive.org/download/namakura-gatana-1917/Namakura%20Gatana%201917%20restoration.ia.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

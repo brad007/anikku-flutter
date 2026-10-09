@@ -1,0 +1,16 @@
+PODS:
+  - video_player_tvos (0.0.1)
+
+DEPENDENCIES:
+  - video_player_tvos (from `/Users/brandenmchelem/.pub-cache/hosted/pub.dev/video_player_tvos-0.0.1/tvos`)
+
+EXTERNAL SOURCES:
+  video_player_tvos:
+    :path: "/Users/brandenmchelem/.pub-cache/hosted/pub.dev/video_player_tvos-0.0.1/tvos"
+
+SPEC CHECKSUMS:
+  video_player_tvos: d8ff3846a49c5603dfcb49c91a6921aef9ce5d46
+
+PODFILE CHECKSUM: 6fa85034ea021a14485d8d5582494ad6d457cdf4
+
+COCOAPODS: 1.16.2

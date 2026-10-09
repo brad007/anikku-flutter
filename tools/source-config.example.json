@@ -1,0 +1,15 @@
+{
+  "animeOnsen": {
+    "name": "AnimeOnsen",
+    "baseUrl": "https://your-authorized-web-app.example",
+    "apiUrl": "https://your-authorized-api.example/v4",
+    "searchUrl": "https://your-authorized-search.example"
+  },
+  "anikoto": {
+    "name": "Your Anikoto-style source",
+    "baseUrl": "https://your-authorized-web-app.example",
+    "episodeListTemplate": "/ajax/episode/list/{id}",
+    "serverListTemplate": "/ajax/server/list?servers={episode}",
+    "streamResolverTemplate": "https://your-authorized-resolver.example/streams?episode={episode}&epurl={epurl}"
+  }
+}

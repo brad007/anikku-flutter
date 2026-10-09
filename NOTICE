@@ -1,0 +1,43 @@
+Anikku Flutter edition
+Independent Flutter/tvOS port based on the Anikku application's workflows.
+Upstream: https://github.com/komikku-app/anikku
+Reference revision: 6e35b41f0cc7e375d15527bd61375435f998685a
+
+Original project copyright notices:
+Copyright © 2015 Javier Tomás
+Copyright © 2024 The Mihon Open Source Project
+Copyright © 2024 The Aniyomi Open Source Project
+Licensed under the Apache License, Version 2.0; see LICENSE.
+
+This port replaces the Android UI, extension execution and mpv integration
+with Dart/Flutter, portable JSON catalogs and platform video playback.
+It is not a release by the upstream Anikku maintainers.
+
+flutter-tvos: https://github.com/fluttertv/flutter-tvos (BSD-3-Clause).
+Generated tvOS runner files originate from that toolchain's templates.
+flutter-tvos is an independent community project, not an official Google
+or Apple Flutter target. Its license is included in docs/flutter-tvos.LICENSE.
+
+The sample catalog links to Big Buck Bunny (2008), Sintel (2010), and
+Tears of Steel (2012), © Blender Foundation, licensed CC BY 3.0.
+https://www.blender.org/about/projects/
+https://creativecommons.org/licenses/by/3.0/
+The first two samples are trailers hosted by W3C; the third is the full film
+hosted by Blender. Media is streamed from those providers, not redistributed.
+The assets/test/playback.mp4 color-pattern/sine clip is generated locally
+with FFmpeg solely for deterministic playback testing.
+
+Namakura Gatana (The Dull Sword), 1917, Junichi Kouchi.
+Public-domain Japanese animated short, streamed from Internet Archive:
+https://archive.org/details/namakura-gatana-1917
+Film and restoration source information:
+https://commons.wikimedia.org/wiki/File:Kouichi_Jun%27ichi_-_Namakura_Gatana_(1917)_-_4-minute_restored_version.webm
+Sample artwork is a frame from the same film.
+
+AnimeGG source adapter: adapted to Dart from the Yuzono anime-extensions
+AnimeGG extension, Apache-2.0. Changes include portable domain models, lazy
+episode resolution, bounded requests, native player and download integration.
+https://github.com/yuzono/anime-extensions
+Reference revision: 212743bb47c364de32ecbd0e0bcfc766815a71fd
+Original source: src/en/animegg/src/eu/kanade/tachiyomi/animeextension/en/animegg/AnimeGG.kt
+The sample catalog/media above are test fixtures; normal startup excludes them.
